@@ -138,6 +138,56 @@
 }
 /* third page */
 
+.page3{
+    margin: 100px;
+    border: 2px solid red;
+    gap: 54px;
+}
+.Features-head h2{
+    border-left:4px solid #FF900E;
+    padding-left: 20px;
+    font-size: 3rem;
+    margin-bottom:24px ;
+
+}
+.Features-head p{
+    margin-bottom: 30px;
+}
+.Features-head h3{
+    font-size: 1.25rem;
+    
+}
+.Features-shadow{
+    padding: 30px;
+    margin-bottom: 38px;
+}
+.Features-shadow div h3{
+    margin-bottom: 10px;
+}
+.Features-shadow div p {
+    margin-bottom: 50px;
+}
+.Features-shadow div{
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.06);
+    
+}
+.experienced-arch img{
+    width: 100%;
+}
+ #fir{
+    font-size: 4rem;
+}
+#sec{
+    font-size: 1.5rem;
+}
+.experienced-arch button{
+    margin:-75px;
+    
+    width: 342px;
+    height: 200px;
+}
+
+
 
 
 
@@ -163,6 +213,22 @@
 .side-content-of-team button{
     margin-bottom: 10px;
 }
+.experienced-arch button{
+    
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+ #fir{
+    font-size: 1.5rem;
+}
+#sec{
+    font-size: 1rem;
+}
+
+
 
 
 }
