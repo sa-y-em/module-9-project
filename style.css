@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-fonts {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* common styles */
+.flex{
+    display: flex;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+.dark1{
+    color: #131313;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
+
+ header{
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width: 2000px;
+ }   
+ .btn{
+    background-color: #FF900E;
+    width: 180px;
+    color: #FFFFFF;
+    padding: 20px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    
+ }
+
+/* nav styles */
+
+.navbar{
+    
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+    justify-content: space-around;
+    align-items: center;  
+
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nav-rigsihtde ul{
+    list-style: none;
+    gap: 15px;
+    
+}
+.nav-rigsihtde ul li a{
+    text-decoration: none;
+     color: #424242;
+
+}
+.brand-content h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem; 
+}
+.brand-content p{
+    
+
+    text-align: center;
+    font-size: 1rem;
+    padding-top:20px ;
+    padding-bottom: 20px;
+
+}
+.banner img{
+    width: 100%;
+    margin-bottom: 30px;
+    
+    
+
+}
+#button{
+  
+   text-align: center;
+   margin-bottom: 20px;
+    
+   
+    
+}
+/* header section ends here */
+
+
+
+
+.four-images{
+   
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(2,1fr)
+    
+
+}
+.four-images img{
+    width: 100%;
+    
+    
+}
+.side-content-of-team-font{
+    font-size: 3rem;
+    margin-bottom: 24px;
+    
+}
+.page2{
+    margin: 100px;
+    gap: 73px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.side-content-of-team p{
+    font-size: 1rem;
+    margin-bottom: 32px;
+
+}
+/* third page */
+
+
+
+
+
+/* media query */
+@media screen and (max-width:576px) {
+    .navbar{
+    padding-bottom: 20px;
+}
+.flex{
+    flex-direction: column;
+    
+}
+/* page two start */
+.four-images{
+    
+    gap: 20px;
+    grid-template-columns:repeat(1,1fr)
+}
+.page2{
+    margin: 10px;
+}
+.side-content-of-team button{
+    margin-bottom: 10px;
+}
+
+
+}
